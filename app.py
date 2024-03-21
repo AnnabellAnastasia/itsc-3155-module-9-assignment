@@ -41,7 +41,6 @@ def create_movie():
     if rating is None:
         return redirect('/movies/new')
     create_movie(name, director, rating)
-
     return redirect('/movies')
 
 
